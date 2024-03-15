@@ -14,7 +14,7 @@ Both private and third-party libraries suffer some of the same risks.
   -  **Malicious Code**: Repositories may include malicious code that threatens the security of your application.
 
   -  **Lack of Maintenance**: Libraries that are no longer actively maintained may not receive security updates, leaving your application exposed to vulnerabilities.
-  -  **Secrets & Tokens**: [Recommendations](#markdown-header-secrets-and-tokens)
+  -  **Secrets & Tokens**: [Recommendations](#secrets-and-tokens)
 
 Specific to third-party repositories:
   -  **Supply Chain Attacks**: Attackers may compromise the supply chain of libraries, injecting malicious code into the dependencies you rely on.
