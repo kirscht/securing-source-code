@@ -28,7 +28,7 @@ Code repositories enhance project management, foster collaboration, and contribu
 
   ### Benefits Include:
 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Version Control
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Version Control
     
     - Code repositories allow developers to track and manage changes made to the codebase over time.
     - Ensures that every modification is tracked and recorded, making it easier to collaborate and avoid conflicts when multiple developers work on the same project simultaneously.
