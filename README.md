@@ -14,7 +14,7 @@ Both private and third-party libraries suffer some of the same risks.
   -  **Malicious Code**: Repositories may include malicious code that threatens the security of your application.
 
   -  **Lack of Maintenance**: Libraries that are no longer actively maintained may not receive security updates, leaving your application exposed to vulnerabilities.
-  -  **Secrets & Tokens**: [Recommendations](#secrets-and-tokens)
+  -  **Secrets & Tokens**: [Recommendations](#secrets-and-tokens) [foo](#foo)
 
 Specific to third-party repositories:
   -  **Supply Chain Attacks**: Attackers may compromise the supply chain of libraries, injecting malicious code into the dependencies you rely on.
@@ -89,7 +89,7 @@ Code repositories enhance project management, foster collaboration, and contribu
     - Attackers may alter code repositories, leading to system or application shutdowns.
     - Proper access controls and monitoring are necessary to prevent infrastructure attacks
 
-
+<div id="foo">
 ## To mitigate these risks, organizations should:
 
 Educate Developers: Provide security awareness training to developers.
