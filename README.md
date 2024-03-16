@@ -36,7 +36,7 @@ With many companies relying on Git for code management, Git has become a popular
 <h4>Secrets, Tokens, & Data Leakage:</h4>
 
 * Developers may inadvertently upload sensitive or confidential information to public repositories.
-* `Attackers monitor repositories to find exposed credentials, proprietary algorithms, or business logic. The include ssh keys, DevOps secrets, tokens, application administrator passwords, BIOS & firmware passwords, IOT device passwords, network & server device passwords, application 2 application credentials, service credentials`
+* Attackers monitor repositories to find exposed credentials, proprietary algorithms, or business logic. The include ssh keys, DevOps secrets, tokens, application administrator passwords, BIOS & firmware passwords, IOT device passwords, network & server device passwords, application 2 application credentials, service credentials
 * Data leakage can lead to targeted attacks, spear phishing campaigns, or unauthorized access.
 * Confidential or proprietary information about applications and services can be leaked through comments and other embeded code
 
@@ -82,10 +82,12 @@ With many companies relying on Git for code management, Git has become a popular
 
 
 <div id="foo">
-## To mitigate these risks, organizations should:
+  
+## Mitigation Recommendations:
 
-Educate Developers: Provide security awareness training to developers.
-Perform Audits: Regularly review repositories for vulnerabilities and misconfigurations.
-Penetration Testing: Conduct intelligence-led penetration testing to identify weaknesses.
+* `Educate Developers`: Provide security awareness training to developers.
+* `Perform Audits`: Regularly review repositories for vulnerabilities and misconfigurations.
+* `Penetration Testing`: Conduct intelligence-led penetration testing to identify weaknesses.
+
 Remember that securing a code repository is an ongoing process, and vigilance is essential to protect your intellectual property and data
 However, it’s essential to recognize that code repositories also come with potential security risks. Here are some threats and risks associated with using code repositories:
