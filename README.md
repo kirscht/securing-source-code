@@ -90,11 +90,15 @@ With many companies relying on Git for code management, Git has become a popular
 
   Provide security awareness training to developers.
 
-* <h4>`Perform Audits`:</h4>
+  * Dangers of storing secrets, tokens, keys, and other confidential information in source code.
+
+* <h4><b>Perform Audits:</b></h4>
 
   Regularly review repositories for vulnerabilities and misconfigurations.
+
+  * Secrets scanners to locate secrets of various types.
   
-* <h4>`Penetration Testing`:</h4>
+* <h4><b>Penetration Testing:</b></h4>
 
   Conduct intelligence-led penetration testing to identify weaknesses.
 
