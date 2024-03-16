@@ -9,9 +9,9 @@ With many companies relying on Git for code management, Git has become a popular
 
 <h4>Version Control:</h4>
     
-    - Code repositories allow developers to track and manage changes made to the codebase over time,
-    - Ensures that every modification is tracked and recorded, making it easier to collaborate and avoid conflicts when multiple developers work on the same project simultaneously,
-    - Version control systems (VCS), such as Git, enable efficient cooperation by allowing developers to work independently on their part of the code without blocking others.
+    * Code repositories allow developers to track and manage changes made to the codebase over time,
+    * Ensures that every modification is tracked and recorded, making it easier to collaborate and avoid conflicts when multiple developers work on the same project simultaneously,
+    * Version control systems (VCS), such as Git, enable efficient cooperation by allowing developers to work independently on their part of the code without blocking others.
 
 <h4>Collaboration and Teamwork:</h4>
 
