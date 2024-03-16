@@ -36,7 +36,7 @@ With many companies relying on Git for code management, Git has become a popular
 <h4>Secrets, Tokens, & Data Leakage:</h4>
 
     - Developers may inadvertently upload sensitive or confidential information to public repositories.
-    - ```Attackers monitor repositories to find exposed credentials, proprietary algorithms, or business logic. The include ssh keys, DevOps secrets, tokens, application administrator passwords, BIOS & firmware passwords, IOT device passwords, network & server device passwords, application 2 application credentials, service credentials```
+    - `Attackers monitor repositories to find exposed credentials, proprietary algorithms, or business logic. The include ssh keys, DevOps secrets, tokens, application administrator passwords, BIOS & firmware passwords, IOT device passwords, network & server device passwords, application 2 application credentials, service credentials`
     - Data leakage can lead to targeted attacks, spear phishing campaigns, or unauthorized access.
     - Confidential or proprietary information about applications and services can be leaked through comments and other embeded code
 
