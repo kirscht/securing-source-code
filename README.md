@@ -84,7 +84,7 @@ With many companies relying on Git for code management, Git has become a popular
 
 <div id="foo">
   
-<div id="Recommendations and Mitiation"> ![Recommendations and Mitigation](./images/Header.png)</div>
+<div id="Recommendations and Mitiation">![Recommendations and Mitigation](./images/Header.png)</div>
 
 * <h4><b>Educate Developers:</b></h4>
 
