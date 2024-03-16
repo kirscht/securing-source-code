@@ -86,7 +86,7 @@ With many companies relying on Git for code management, Git has become a popular
   
 ## Mitigation Recommendations:
 
-* <h4>`Educate Developers`:</h4>
+* <h4><b>Educate Developers:</b></h4>
 
   Provide security awareness training to developers.
 
