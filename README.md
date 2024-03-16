@@ -85,6 +85,7 @@ With many companies relying on Git for code management, Git has become a popular
 <div id="foo">
   
 ## Mitigation Recommendations:
+![alt text](./images/Header.png)
 
 * <h4><b>Educate Developers:</b></h4>
 
