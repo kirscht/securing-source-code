@@ -3,9 +3,11 @@
 
 Code repositories enhance project management, foster collaboration, and contribute to better code quality. Whether you’re an individual developer or part of a team, using a repository is crucial for efficient and effective software development.
 
+With many companies relying on Git for code management, Git has become a popular attack vector for hackers. There are numerous cautionary tales depicting the outcome of badly configured or insecure Git management.
+
   ### Benefits Include:
 
-<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Version Control:</h4>
+<h4>Version Control:</h4>
     
     - Code repositories allow developers to track and manage changes made to the codebase over time,
     - Ensures that every modification is tracked and recorded, making it easier to collaborate and avoid conflicts when multiple developers work on the same project simultaneously,
@@ -34,20 +36,23 @@ Code repositories enhance project management, foster collaboration, and contribu
 <h4>Secrets, Tokens, & Data Leakage:</h4>
 
     - Developers may inadvertently upload sensitive or confidential information to public repositories.
-    - Attackers monitor repositories to find exposed credentials, proprietary algorithms, or business logic.
+    - Attackers monitor repositories to find exposed credentials, proprietary algorithms, or business logic. The include ssh keys, DevOps secrets, tokens, application administrator passwords,
+      BIOS & firmware passwords, IOT device passwords, network & server device passwords, application 2 application credentials, service credentials
     - Data leakage can lead to targeted attacks, spear phishing campaigns, or unauthorized access.
+    - Confidential or proprietary information about applications and services can be leaked through comments and other embeded code
 
 <h4>Malicious Code Injection:</h4>
 
     - Public repositories can contain malicious code injected by attackers.
-    - Developers may unknowingly introduce vulnerabilities by using code from untrusted sources.
+    - Developers may unknowingly introduce vulnerabilities by using or copying code from untrusted sources.
     - Regular security audits and code reviews are crucial to identify and address such issues.
+    - Backdoors allowing persistent access
 
 
 <h4>Insecure Dependencies:</h4>
 
     - Open-source libraries and dependencies used in repositories may have security vulnerabilities.
-    -  **Supply Chain Attacks**: Attackers may compromise the supply chain of libraries, injecting malicious code into the dependencies you rely on.    
+    - Supply Chain Attacks: Attackers may compromise the supply chain of libraries, injecting malicious code into the dependencies you rely on.    
     - Developers should regularly update dependencies and monitor for security advisories.
     - Automated tools like Dependabot can help manage dependency security1.
 
@@ -56,11 +61,14 @@ Code repositories enhance project management, foster collaboration, and contribu
     - Misconfigured permissions can lead to unauthorized access.
     - Developers should follow the principle of least privilege and regularly review access permissions.
     - Proper authentication mechanisms and role-based access control (RBAC) are essential
+    - Password Hygiene Repo being misconfigured to use the default credentials, like “admin/admin” password.
+    - Allowing self registration
+    - Unprotected repositories with proprietary and confidential information & data.
 
 <h4>Unsigned & Vulnerable Code:</h4>
 
-    -  **Outdated and Vulnerable Code**: Repositories may contain known security vulnerabilities susceptible to exploitation.
-    - **Unsigned commits** can compromise code integrity.
+    - Outdated and Vulnerable Code: Repositories may contain known security vulnerabilities susceptible to exploitation.
+    - Unsigned commits can compromise code integrity.
     - Implement code signing to verify the authenticity of commits and prevent unauthorized modifications.
 
 <h4>LInfrastructure Attacks:</h4>
@@ -70,7 +78,9 @@ Code repositories enhance project management, foster collaboration, and contribu
 
 <h4>Unmaintained Code</h4>
 
-    -  **Lack of Maintenance**: Libraries that are no longer actively maintained may not receive security updates, leaving your application exposed to vulnerabilities.
+    -  Lack of Maintenance: Libraries that are no longer actively maintained may not receive security updates, leaving your application exposed to vulnerabilities.
+
+
 
 <div id="foo">
 ## To mitigate these risks, organizations should:
