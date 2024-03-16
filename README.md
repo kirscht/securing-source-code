@@ -1,28 +1,5 @@
-# securing-source-code
+# Code Repository Security and Information Assurance
 
-The purpose of this page is to expose the security risks to both private and third-party repositories.
-
-  -  Third-party libraries are essential in modern applicaiton development. Developers are able to leverage code and libraries developed and shared by third parties. This introduces security risks and external dependencies.
-
-## Threats & Risks ##
-
-Risks include:
-
-Both private and third-party libraries suffer some of the same risks.
-
-  -  **Outdated and Vulnerable Code**: Repositories may contain known security vulnerabilities susceptible to exploitation.
-  -  **Malicious Code**: Repositories may include malicious code that threatens the security of your application.
-
-  -  **Lack of Maintenance**: Libraries that are no longer actively maintained may not receive security updates, leaving your application exposed to vulnerabilities.
-  -  **Secrets & Tokens**: [Recommendations](#secrets-and-tokens) [foo](#foo)
-
-Specific to third-party repositories:
-  -  **Supply Chain Attacks**: Attackers may compromise the supply chain of libraries, injecting malicious code into the dependencies you rely on.
-
-
-# Risk Details and Recommendations
-
-## Secrets and Tokens
 
 Code repositories enhance project management, foster collaboration, and contribute to better code quality. Whether you’re an individual developer or part of a team, using a repository is crucial for efficient and effective software development.
 
@@ -54,22 +31,23 @@ Code repositories enhance project management, foster collaboration, and contribu
 
 ### Security Risks Include:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Data Leakage:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Secrets, Tokens, & Data Leakage:**
 
     - Developers may inadvertently upload sensitive or confidential information to public repositories.
     - Attackers monitor repositories to find exposed credentials, proprietary algorithms, or business logic.
-    - Data leakage can lead to targeted attacks, spear phishing campaigns, or unauthorized access1.
+    - Data leakage can lead to targeted attacks, spear phishing campaigns, or unauthorized access.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Malicious Code Injection:**
 
     - Public repositories can contain malicious code injected by attackers.
     - Developers may unknowingly introduce vulnerabilities by using code from untrusted sources.
-    - Regular security audits and code reviews are crucial to identify and address such issues1.
+    - Regular security audits and code reviews are crucial to identify and address such issues.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Insecure Dependencies:**
 
     - Open-source libraries and dependencies used in repositories may have security vulnerabilities.
+    -  **Supply Chain Attacks**: Attackers may compromise the supply chain of libraries, injecting malicious code into the dependencies you rely on.    
     - Developers should regularly update dependencies and monitor for security advisories.
     - Automated tools like Dependabot can help manage dependency security1.
 
@@ -79,21 +57,26 @@ Code repositories enhance project management, foster collaboration, and contribu
     - Developers should follow the principle of least privilege and regularly review access permissions.
     - Proper authentication mechanisms and role-based access control (RBAC) are essential
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Lack of Code Signing:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Unsigned & Vulnerable Code:**
 
-    - Unsigned commits can compromise code integrity.
-    - Implement code signing to verify the authenticity of commits and prevent unauthorized modifications2.
+    -  **Outdated and Vulnerable Code**: Repositories may contain known security vulnerabilities susceptible to exploitation.
+    - **Unsigned commits** can compromise code integrity.
+    - Implement code signing to verify the authenticity of commits and prevent unauthorized modifications.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**LInfrastructure Attacks:**
 
     - Attackers may alter code repositories, leading to system or application shutdowns.
     - Proper access controls and monitoring are necessary to prevent infrastructure attacks
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Unmaintained Code**
+
+    -  **Lack of Maintenance**: Libraries that are no longer actively maintained may not receive security updates, leaving your application exposed to vulnerabilities.
+
 <div id="foo">
 ## To mitigate these risks, organizations should:
 
 Educate Developers: Provide security awareness training to developers.
 Perform Audits: Regularly review repositories for vulnerabilities and misconfigurations.
-Penetration Testing: Conduct intelligence-led penetration testing to identify weaknesses1.
-Remember that securing a code repository is an ongoing process, and vigilance is essential to protect your intellectual property and data1
+Penetration Testing: Conduct intelligence-led penetration testing to identify weaknesses.
+Remember that securing a code repository is an ongoing process, and vigilance is essential to protect your intellectual property and data
 However, it’s essential to recognize that code repositories also come with potential security risks. Here are some threats and risks associated with using code repositories:
